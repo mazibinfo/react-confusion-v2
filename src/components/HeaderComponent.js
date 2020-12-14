@@ -30,7 +30,7 @@ class Header extends Component {
 
     handleLogin(event) {
         // this.toggleModal();
-        alert("Username " + this.username.value + " Password " + this.password.value + " Remember " + this.remember.checked);
+        alert("Username: " + this.username.value + ", Password: " + this.password.value + ", Remember: " + this.remember.checked);
         event.preventDefault();
     }
 
@@ -72,8 +72,8 @@ class Header extends Component {
                                         <span className="fa fa-sign-in fa-lg"> Login</span>
                                     </Button>
                                 </NavItem>
-                            </Nav>
-                        </Collapse>
+                            </Nav>                            
+                        </Collapse>                        
                     </div>
                 </Navbar>
                 <Jumbotron>
