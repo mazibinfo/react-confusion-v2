@@ -1,4 +1,3 @@
-import { Redirect } from 'react-router-dom';
 import { createStore } from 'redux';
 import { Reducer, initialState } from './reducer';
 
